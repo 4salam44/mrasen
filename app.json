@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.app.maraseemalumara"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#0A0A0A"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.app.maraseemalumara"
     },
     "web": {
       "bundler": "metro",
@@ -38,6 +40,17 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "sdkVersion": "53.0.0",
+    "platforms": ["ios", "android", "web"],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e26c611f-3a46-4ee8-b8ac-cd65e0577fef"
+      }
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#0A0A0A"
     }
   }
 }
